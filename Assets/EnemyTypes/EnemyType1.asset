@@ -18,6 +18,9 @@ MonoBehaviour:
   speed: 0
   heal: 0
   award: 0
-  line: 0
+  startWave: 0
+  weight: 100
+  type: 1
   enemyName: 
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 3376313288717967769, guid: efc22aa335563e848aba76e2de752bbe,
+    type: 3}

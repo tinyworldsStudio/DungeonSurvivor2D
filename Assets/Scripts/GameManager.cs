@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public int day;
+    public int day=1;
         void Start()
     {
         
