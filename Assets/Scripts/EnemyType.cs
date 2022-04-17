@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyType : ScriptableObject
 {
     public float damage, armor, fireRate, speed, heal;
-    public int award, startWave,weight,type;
+    public int award, startDay,weight,type;
     public string enemyName;
     public GameObject enemyPrefab;
 
