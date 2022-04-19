@@ -4486,8 +4486,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 440558652}
-  - component: {fileID: 440558650}
   - component: {fileID: 440558651}
+  - component: {fileID: 440558650}
   m_Layer: 0
   m_Name: WaveSpawner
   m_TagString: Untagged
@@ -4504,26 +4504,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 440558649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 855b386144c733a419766fd17cb81357, type: 3}
+  m_Script: {fileID: 11500000, guid: b145c3e4b6e1787478530efc6b23068f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GeneralEnemyTypes:
+  generalEnemyType:
   - {fileID: 11400000, guid: 7b308699819c5d141ac939c386ca4c1d, type: 2}
   - {fileID: 11400000, guid: ddd0d9485cdb0c445845a8cf0d54dae0, type: 2}
-  aliveEnemies: []
-  deathEnemies: []
-  gameManager: {fileID: 640113961}
-  deathEnemiesParent: {fileID: 0}
-  wave:
-    spawnInterval: 2
-    enemyPrefab: {fileID: 0}
-    enemies: []
-  enemyScrpit: {fileID: 440558651}
+  gm: {fileID: 640113961}
+  dailyEnemies: []
+  nextSpawnTime: 3
   spawnPoints:
-  - {fileID: 440558652}
+  - {fileID: 1408879616}
   - {fileID: 505118435}
   - {fileID: 1032706808}
   - {fileID: 1075219038}
+  deathEnemyController: {fileID: 440558651}
+  deathEnemies: []
+  aliveEnemies: []
+  enemyPrefab: {fileID: 0}
+  spawnedEnemy: {fileID: 0}
 --- !u!114 &440558651
 MonoBehaviour:
   m_ObjectHideFlags: 0

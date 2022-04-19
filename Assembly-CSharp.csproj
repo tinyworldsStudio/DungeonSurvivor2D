@@ -66,7 +66,11 @@
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
+=======
+    <Compile Include="Assets\Scripts\WaveSpawnerT.cs" />
+>>>>>>> 05a2faa7c333f866abde2816160450a8fa257ce3
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
@@ -76,6 +80,10 @@
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\EnemyType.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
+>>>>>>> 05a2faa7c333f866abde2816160450a8fa257ce3
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
